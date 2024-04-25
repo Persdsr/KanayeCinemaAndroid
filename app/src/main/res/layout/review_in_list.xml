@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llReview"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:paddingHorizontal="7dp"
+    android:layout_marginHorizontal="20dp"
+    android:background="#B0333333"
+    android:layout_height="200dp">
+
+    <View
+        android:id="@+id/vReviewLine"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/brand_green"
+        />
+
+    <TextView
+        android:id="@+id/tvAuthorName"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Никнейм автора"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvReviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Title"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Привет флим круйто"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>
